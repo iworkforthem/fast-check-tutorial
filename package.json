@@ -1,0 +1,22 @@
+{
+  "name": "fast-check-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transformIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "collectCoverage": true
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fast-check": "^1.16.3",
+    "jest": "^24.9.0"
+  }
+}
